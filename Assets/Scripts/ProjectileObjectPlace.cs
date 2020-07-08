@@ -207,7 +207,7 @@ public class ProjectileObjectPlace : MonoBehaviour
         Switchable switchable = collider.GetComponent<Switchable>();
         if (switchable)
         {
-            switchable.SwitchTo(this.shootElement);
+            switchable.SwitchTo(this.shootElement, point, normal);
         }
 
         PlaceableOn placeable = collider.GetComponent<PlaceableOn>();
