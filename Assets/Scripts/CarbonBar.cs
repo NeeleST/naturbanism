@@ -15,7 +15,7 @@ public class CarbonBar : MonoBehaviour
         DebugUtility.HandleErrorIfNullFindObject<PlayerCharacterController, CarbonBar>(playerCharacterController, this);
 
         carbon = playerCharacterController.GetComponent<CarbonAccount>();
-        DebugUtility.HandleErrorIfNullGetComponent<Health, CarbonBar>(carbon, this, playerCharacterController.gameObject);
+        DebugUtility.HandleErrorIfNullGetComponent<CarbonAccount, CarbonBar>(carbon, this, playerCharacterController.gameObject);
 
         CarbonSlider.value = carbon.CalculateCarbonProportion();
     }
