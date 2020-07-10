@@ -1062,9 +1062,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 2
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 75
+  m_Value: 0.85
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2897,6 +2897,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CarbonSlider: {fileID: 5925777463748096531}
+  BiodiversitySlider: {fileID: 2215279706723973995}
+  FoodSlider: {fileID: 7585861290985201025}
+  EnergySlider: {fileID: 5958787119058222022}
 --- !u!114 &5499754808462435493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3105,9 +3108,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 2
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 75
+  m_Value: 0.85
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3194,9 +3197,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 2
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 75
+  m_Value: 0.85
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4524,9 +4527,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 2
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 75
+  m_Value: 0.85
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
