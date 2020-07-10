@@ -2896,7 +2896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25668682ee97f2d48b6af0f52a90aa13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarbonSlider: {fileID: 5925777463748096531}
+  CarbonSlider: {fileID: 4826164383167892009}
   BiodiversitySlider: {fileID: 2215279706723973995}
   FoodSlider: {fileID: 7585861290985201025}
   EnergySlider: {fileID: 5958787119058222022}

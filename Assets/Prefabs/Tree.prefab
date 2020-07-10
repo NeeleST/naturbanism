@@ -153,6 +153,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CarbonValue: -100
-  BiodiversityValue: 0
-  FoodValue: 0
+  BiodiversityValue: 100
+  FoodValue: 50
   EnergyValue: 0

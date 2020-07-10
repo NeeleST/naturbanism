@@ -13,7 +13,13 @@ public enum Scores {
 }
 
 [Serializable]
-public class ScoresFloatDictionary : SerializableDictionary<Scores, float> {}
+public class ScoresFloatDictionary : SerializableDictionary<Scores, float> {
+
+    public string ToDebugString()
+    {
+        return "{" + string.Join(",", this) + "}";
+    }
+}
 
 /*
  * PlayerScores keeps track of the current scores for the player
@@ -38,7 +44,7 @@ public class PlayerScores : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Scores start: " + CurrentValues);
+        Debug.Log("Scores start: " + CurrentValues.ToDebugString());
     }
 
     void Update()
@@ -48,13 +54,13 @@ public class PlayerScores : MonoBehaviour
     public void Add(Scores score, float value)
     {
         CurrentValues[score] += value;
-        Debug.Log("Add: " + score + "/" + value + " Scores: " + CurrentValues);
+        Debug.Log("Add: " + score + "/" + value + " Scores: " + CurrentValues.ToDebugString());
     }
 
     public void Remove(Scores score, float value)
     {
         CurrentValues[score] -= value;
-        Debug.Log("Remove: " + score + "/" + value + " Scores: " + CurrentValues);
+        Debug.Log("Remove: " + score + "/" + value + " Scores: " + CurrentValues.ToDebugString());
     }
 
     public float Get(Scores score) {
