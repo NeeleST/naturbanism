@@ -1062,9 +1062,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 2
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 75
+  m_Value: 0.85
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1096,8 +1096,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.1650485, y: 1.1650485, z: 1.1650485}
-  m_Children:
-  - {fileID: 7531403265400750187}
+  m_Children: [{fileID: 7531403265400750187}]
   m_Father: {fileID: 4863125819350701414}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2693,8 +2692,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.1650485, y: 1.1650485, z: 1.1650485}
-  m_Children:
-  - {fileID: 8387622137465510735}
+  m_Children: [{fileID: 8387622137465510735}]
   m_Father: {fileID: 4863125819350701414}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2896,7 +2894,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25668682ee97f2d48b6af0f52a90aa13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarbonSlider: {fileID: 5925777463748096531}
+  CarbonSlider: {fileID: 4826164383167892009}
+  BiodiversitySlider: {fileID: 2215279706723973995}
+  FoodSlider: {fileID: 7585861290985201025}
+  EnergySlider: {fileID: 5958787119058222022}
 --- !u!114 &5499754808462435493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3105,9 +3106,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 2
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 75
+  m_Value: 0.85
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3194,9 +3195,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 2
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 75
+  m_Value: 0.85
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4524,9 +4525,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 2
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 75
+  m_Value: 0.85
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

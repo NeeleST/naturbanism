@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 6204104783349628664}
   - component: {fileID: 1705676136250442594}
   m_Layer: 0
-  m_Name: tree
+  m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -152,4 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75e5c803adbb58f47864bcb30190de1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Value: -5
+  CarbonValue: -100
+  BiodiversityValue: 100
+  FoodValue: 50
+  EnergyValue: 0
