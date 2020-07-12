@@ -21,7 +21,8 @@ public class TextOnTrigger : MonoBehaviour
     IEnumerator WaitForSec()
     {
         yield return new WaitForSeconds(30);
-        Destroy(uiObject);
+        uiObject.SetActive(false);
+        // Destroy(gameObject);
     }
     
 }
