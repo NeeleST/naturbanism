@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1889976480710634127}
   - component: {fileID: 7466817373365251277}
   m_Layer: 0
-  m_Name: wand_wind
+  m_Name: wand 15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,8 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ad90ba0b1477764da373f5ec01a8cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponName: wind
-  weaponIcon: {fileID: 21300000, guid: 010f2f9e22f619b4bbfaac15a1fd0e3e, type: 3}
+  weaponName: algae
+  weaponIcon: {fileID: 21300000, guid: 21e437c2279493941980600684d35973, type: 3}
   crosshairDataDefault:
     crosshairSprite: {fileID: 21300000, guid: 2b5b80f3ebc88174a8c662e280fdb09c, type: 3}
     crosshairSize: 10
@@ -59,7 +59,7 @@ MonoBehaviour:
   weaponRoot: {fileID: 5752404909726094893}
   weaponMuzzle: {fileID: 4655776622847941572}
   shootType: 0
-  projectilePrefab: {fileID: 528546716365072993, guid: 808c9640187f88f4ab855621fc752c61,
+  projectilePrefab: {fileID: 528546716365072993, guid: ffae752c9eb5b454d98ad0fcfe882c40,
     type: 3}
   delayBetweenShots: 0.05
   bulletSpreadAngle: 0.5
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 5898187066672081739}
   - component: {fileID: 2457468255991925847}
   m_Layer: 0
-  m_Name: wand_energy
+  m_Name: wand_food
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -219,7 +219,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5752404909726094893}
-  m_Mesh: {fileID: 4300138, guid: 7374575f12d49ba459e91009f7a9ec62, type: 3}
+  m_Mesh: {fileID: 4300198, guid: 7374575f12d49ba459e91009f7a9ec62, type: 3}
 --- !u!23 &2457468255991925847
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -238,7 +238,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 11533ebaa1179a84d9cd05f5bef12433, type: 2}
+  - {fileID: 2100000, guid: 803c34f713a40f247b72e6532c24d509, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
