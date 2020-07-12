@@ -64,7 +64,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Defeat all the enemies
+  m_text: 1. Quest 2020 Urban area
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75063828274bdb145a55f6dd2f22e8b2, type: 2}
   m_sharedMaterial: {fileID: 21098970014090698, guid: 75063828274bdb145a55f6dd2f22e8b2,
@@ -134,10 +134,10 @@ MonoBehaviour:
   m_margin: {x: 4, y: 4, z: 4, w: 4}
   m_textInfo:
     textComponent: {fileID: 29529893309424276}
-    characterCount: 22
+    characterCount: 24
     spriteCount: 0
-    spaceCount: 3
-    wordCount: 4
+    spaceCount: 4
+    wordCount: 5
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -690,7 +690,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 187, y: 18}
+  m_SizeDelta: {x: 150, y: 18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &257939190872773690
 CanvasRenderer:
@@ -766,7 +766,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 187, y: 14}
+  m_SizeDelta: {x: 150, y: 14}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &3233168693113207543
 CanvasRenderer:

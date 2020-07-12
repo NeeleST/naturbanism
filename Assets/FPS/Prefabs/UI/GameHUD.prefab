@@ -399,8 +399,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 43
-    m_Right: 25
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 25
   m_ChildAlignment: 0
@@ -973,8 +973,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 10, y: -10}
-  m_SizeDelta: {x: 180, y: 443.4167}
+  m_AnchoredPosition: {x: 0, y: -10}
+  m_SizeDelta: {x: 180, y: 430}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1020506284884058028
 CanvasRenderer:
@@ -997,7 +997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4627451, g: 0.4627451, b: 0.4627451, a: 0.78039217}
+  m_Color: {r: 0.4627451, g: 0.4627451, b: 0.4627451, a: 0.5882353}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2791,7 +2791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4627451, g: 0.4627451, b: 0.4627451, a: 0.78039217}
+  m_Color: {r: 0.4627451, g: 0.4627451, b: 0.4627451, a: 0.5882353}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -2963,7 +2963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25668682ee97f2d48b6af0f52a90aa13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CarbonSlider: {fileID: 0}
+  CarbonSlider: {fileID: 4664974396126947148}
   BiodiversitySlider: {fileID: 2215279706723973995}
   FoodSlider: {fileID: 7585861290985201025}
   EnergySlider: {fileID: 5958787119058222022}
