@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1889976480710634127}
   - component: {fileID: 7466817373365251277}
   m_Layer: 0
-  m_Name: wand_wind
+  m_Name: wand 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
