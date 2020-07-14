@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponName: algae
-  weaponIcon: {fileID: 21300000, guid: 187019346999e4345be4849e4a26b4d0, type: 3}
+  weaponIcon: {fileID: 21300000, guid: bddfa731c6dd1194e8f33bc17de84797, type: 3}
   crosshairDataDefault:
     crosshairSprite: {fileID: 21300000, guid: 2b5b80f3ebc88174a8c662e280fdb09c, type: 3}
     crosshairSize: 10

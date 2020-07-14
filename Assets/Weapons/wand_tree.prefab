@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponName: tree
-  weaponIcon: {fileID: 21300000, guid: b0a95cca6fec5b9429fcdd5f5e4fe869, type: 3}
+  weaponIcon: {fileID: 21300000, guid: 940146ffe7be33a47b035db291f6b112, type: 3}
   crosshairDataDefault:
     crosshairSprite: {fileID: 21300000, guid: 2b5b80f3ebc88174a8c662e280fdb09c, type: 3}
     crosshairSize: 10

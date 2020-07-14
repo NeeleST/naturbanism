@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponName: solar
-  weaponIcon: {fileID: 21300000, guid: af4697265d052d848b9d6545ea75b7b7, type: 3}
+  weaponIcon: {fileID: 21300000, guid: 7442771230dcfcc47877d17809964b12, type: 3}
   crosshairDataDefault:
     crosshairSprite: {fileID: 21300000, guid: 2b5b80f3ebc88174a8c662e280fdb09c, type: 3}
     crosshairSize: 10
