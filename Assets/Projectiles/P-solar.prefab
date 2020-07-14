@@ -73,7 +73,7 @@ MonoBehaviour:
   gravityDownAcceleration: 0
   trajectoryCorrectionDistance: -1
   inheritWeaponVelocity: 0
-  shootElement: {fileID: 1382218371086823924, guid: 5478c02f72cbec2428db1e96af52ecee,
+  shootElement: {fileID: 6331463283582586571, guid: cd2400a95c1cc754ba67561e72b050a2,
     type: 3}
   radiusColor: {r: 0, g: 0.2, b: 0.2, a: 0.2}
 --- !u!1 &5564024855854763701

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 528546716365072993}
   - component: {fileID: -1495037133752269296}
   m_Layer: 0
-  m_Name: P-Building S
+  m_Name: P-sbuilding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ MonoBehaviour:
   gravityDownAcceleration: 0
   trajectoryCorrectionDistance: -1
   inheritWeaponVelocity: 0
-  shootElement: {fileID: 2966105964946611071, guid: acc546d670f3b224792a92a93cff9e1f,
+  shootElement: {fileID: 7638101912416742948, guid: b2a51a8734b6faf4eac93fa33bc5d0fd,
     type: 3}
   radiusColor: {r: 0, g: 0.2, b: 0.2, a: 0.2}
 --- !u!1 &5564024855854763701

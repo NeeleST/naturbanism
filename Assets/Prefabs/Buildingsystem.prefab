@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5915498516461027403}
   - component: {fileID: 5502880491464539669}
   - component: {fileID: 2147090945567628486}
+  - component: {fileID: 7461229357869357422}
   m_Layer: 0
   m_Name: Landschaft
   m_TagString: Untagged
@@ -79,6 +80,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7461229357869357422
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022811616339460186}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3586715798537885244, guid: 5eb94440fddb75c49bee5e87031ee436, type: 3}
 --- !u!1 &2977366928230481838
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,6 +216,7 @@ GameObject:
   - component: {fileID: 8317736370650671022}
   - component: {fileID: 8198022618751060635}
   - component: {fileID: 1863680924933225822}
+  - component: {fileID: 7255298572899884785}
   m_Layer: 0
   m_Name: Food
   m_TagString: Untagged
@@ -269,6 +285,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7255298572899884785
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4192539425949167949}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8033230592578451282, guid: 33033f9cd798fcc4d8bf0edab958bb17, type: 3}
 --- !u!1 &6049650740537823176
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,7 +343,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75e5c803adbb58f47864bcb30190de1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Value: -100
+  CarbonValue: -100
+  BiodiversityValue: 50
+  FoodValue: 0
+  EnergyValue: 0
 --- !u!1 &6467109885807390338
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,6 +358,7 @@ GameObject:
   - component: {fileID: 615210679525446966}
   - component: {fileID: 4672478670420372840}
   - component: {fileID: 8949735880483913351}
+  - component: {fileID: 3618438189628094198}
   m_Layer: 0
   m_Name: Energy
   m_TagString: Untagged
@@ -393,3 +427,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3618438189628094198
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6467109885807390338}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 634242862415478878, guid: 3bb8d344d15146847aef65490b0d9757, type: 3}

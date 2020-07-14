@@ -20,7 +20,9 @@ public class TextOnTrigger : MonoBehaviour
 	}
     IEnumerator WaitForSec()
     {
-        yield return new WaitForSeconds(30);
+        Debug.Log("waitsecStart");
+        yield return new WaitForSeconds(20);
+        Debug.Log("Continue");
         uiObject.SetActive(false);
         // Destroy(gameObject);
     }

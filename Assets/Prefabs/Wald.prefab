@@ -152,4 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75e5c803adbb58f47864bcb30190de1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Value: -20
+  CarbonValue: -100
+  BiodiversityValue: 50
+  FoodValue: 10
+  EnergyValue: 0
